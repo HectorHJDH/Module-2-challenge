@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio!</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<!--BODY-->
+<body>
+    <!--HEADER-->
+    <header>
+        <h1 class="header-title">Hector Josue Dmz.</h1>
+        <nav>
+          <ul class="nav-topics-list">
+            <li><a class="nav-topic" href="#About-me">About Me</a></li>
+            <li><a class="nav-topic" href="#Work">Work</a></li>
+            <li><a class="nav-topic" href="#Contact-Me">Contact Me</a></li>
+            <li><a class="nav-topic" href="#Resume">Resume</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <!--MOUNTAINS, PROFILE PHOTO-->
+    <figure class="text-over"> 
+        <figcaption>Welcome to my Portfolio Website!</figcaption>
+        <img src="assets/images/Mountains.jpg" alt="Mountains img background for top of page"/>
+        <img src="./assets/images/Myself.jpg" alt="Profile Picture" class="myself"/>
+    </figure>
+    
+    <!--SECTION-->
+    <section class="sections">
+        <div class="section-left">
+            <h2 class="topics-left" id="About-Me">About<br>Me</h2>
+        </div>
+        <div class="section-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+        </div>
+    </section>
+
+    <!--SECTION-->
+    <section class="sections">
+        <div class="section-left">
+            <h2 class="topics-left" id="Work">Work</h2>
+        </div>
+
+        <div class="section-right">
+            <figure class="textover-imgs">
+                <a href="./pages/Surf-report.html">
+                    <div class="border-margin">
+                        <img src="./assets/images/Yo2.jpg" alt="Myself at the tampico beach"/>
+                    </div>
+                    <figcaption>Surf Report<br><p>Mern Stack</p></figcaption>
+                </a>
+            </figure>
+
+
+            <!--The "onclick="return false" helps to not navigate to top of page-->
+            <div class="grid2x2">
+                <div class="box-img">
+                    <a href="./pages/Led-Wall.html">
+                        <img src="./assets/images/led-wall.jpg" alt="Led wall"/>
+                        <figcaption>Led Wall<p>Node/IoT</p></figcaption>
+                    </a>
+                </div>
+                <div class="box-img">
+                    <a href="./pages/Calculator.html">
+                        <img src="./assets/images/calculator.jpg" alt="Man using calculator"/>
+                        <figcaption>Calculator<p>React/JavaScript/CSS</p></figcaption>
+                    </a>
+                </div>
+                <div class="box-img">
+                    <a href="./pages/Puzzle.html">
+                        <img src="./assets/images/puzzle.jpg" alt="White puzzle"/>
+                        <figcaption>Pastel Puzzles<p>MERN Stack</p></figcaption>
+                    </a>
+                </div>
+                <div class="box-img">
+                    <a href="./pages/Run-buddy.html">
+                        <img src="./assets/images/run-buddy.jpg" alt="Man running with his dog at the beach"/>
+                        <figcaption>Run Buddy<p>HTML/CSS</p></figcaption>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--SECTION-->
+    <section class="sections">
+        <div class="section-left">
+            <h2 class="topics-left" id="Contact-Me">Contact<br>Me</h2>
+        </div>
+        
+        <div class="section-right">
+            <nav>
+              <ul class="bottom-nav-topics">
+                <li><a class="bottom-nav-topic" href="#" onclick="return false">555,555,555</a></li>
+                <li><a class="bottom-nav-topic" href="#" onclick="return false">hector@hector.com</a></li>
+                <li><a class="bottom-nav-topic" href="#" onclick="return false">GitHub</a></li>
+                <li><a class="bottom-nav-topic" href="#" onclick="return false">Twitter</a></li>
+                <li><a class="bottom-nav-topic" href="#" onclick="return false">Spotify</a></li>
+              </ul>
+            </nav>
+        </div>
+    </section>
+        
+</body>
+</html>
